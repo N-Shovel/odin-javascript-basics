@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.game {
+  width: min(90%, 520px);
+  padding: 32px;
+  border-radius: 12px;
+  background: #111827;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 8px;
+}
+
+.subtitle {
+  margin: 0 0 24px;
+  color: #9ca3af;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.choice {
+  background: #3b82f6;
+  color: white;
+}
+
+.choice:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin: 28px 0;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #9ca3af;
+}
+
+.results {
+  min-height: 24px;
+}
+
+.winner {
+  min-height: 32px;
+  margin-top: 12px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #facc15;
+}
+
+.reset {
+  margin-top: 16px;
+  background: #22c55e;
+  color: white;
+}
