@@ -2,7 +2,7 @@
 
 Projects from The Odin Project's Foundations course, built with plain HTML, CSS and JavaScript.
 
-**Nimrod Pala** ([@N-Shovel](https://github.com/N-Shovel)) · ITE 18 · ITE 18-FNHX1
+**Nimrod Pala** ([@N-Shovel](https://github.com/N-Shovel)) · ITE 18 · ITE 18-FNHX1  
 **Professor:** James Earl D. Cubillas
 
 ## Projects
